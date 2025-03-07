@@ -1,0 +1,10 @@
+streamlit
+seaborn
+matplotlib
+pandas
+numpy
+africastalking
+google-generativeai
+reportlab
+pillow
+scikit-learn
