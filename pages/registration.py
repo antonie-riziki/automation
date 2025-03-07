@@ -5,9 +5,6 @@ import os
 import requests
 import google.generativeai as genai
 
-# from streamlit_lottie import st_lottie
-
-
 from dotenv import load_dotenv
 
 load_dotenv()
