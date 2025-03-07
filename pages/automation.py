@@ -484,17 +484,17 @@ if uploaded_file:
 
        
 
-        # with col_exp:
-        #     st.subheader('''The Explainer''')
+        with col_exp:
+            st.subheader('''The Explainer''')
 
 
-        #     prompt = (
-        #         f"You have selected the '{selected_columns}' and are analyzing the '{aggregation_method}' aggregation method. "
-        #         f"This graph provides insights into how '{grouped_df[agg_column]}' varies within '{selected_columns}'.\n\n"
-        #         f"Key Insights:\n"
-        #     )
+            prompt = (
+                f"You have selected the '{selected_columns}' and are analyzing the '{aggregation_method}' aggregation method. "
+                f"This graph provides insights into how '{grouped_df[agg_column]}' varies within '{selected_columns}'.\n\n"
+                f"Key Insights:\n"
+            )
 
-        #     the_explainer(prompt)
+            the_explainer(prompt)
 
 
     selected_columns = st.multiselect("Select columns for EDA:", df.columns)
